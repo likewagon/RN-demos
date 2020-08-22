@@ -15,12 +15,14 @@ import {
 
 import PickerSelect from './src/pickerSelect';
 import SideMenu from './src/sideMenu';
+import Chart from './src/chart';
 
 const App: () => React$Node = () => {
 
   const demos = {
     PickerSelect: <PickerSelect />,
-    SideMenu: <SideMenu />
+    SideMenu: <SideMenu />,
+    Chart: <Chart />
   }
 
   const [demo, setDemo] = useState();
@@ -33,6 +35,7 @@ const App: () => React$Node = () => {
           <ScrollView>
             <TouchableOpacity style={{alignSelf: 'center', marginTop: 20}} onPress={() => setDemo(demos.PickerSelect)}><Text>Picker Select</Text></TouchableOpacity>
             <TouchableOpacity style={{alignSelf: 'center', marginTop: 20}} onPress={() => setDemo(demos.SideMenu)}><Text>Side Menu</Text></TouchableOpacity>
+            <TouchableOpacity style={{alignSelf: 'center', marginTop: 20}} onPress={() => setDemo(demos.Chart)}><Text>Chart</Text></TouchableOpacity>
           </ScrollView>
         </SafeAreaView>
         :

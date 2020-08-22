@@ -300,6 +300,8 @@ PODS:
     - React-jsi (= 0.63.2)
   - RNCPicker (1.6.6):
     - React
+  - RNSVG (12.1.0):
+    - React
   - RNVectorIcons (7.0.0):
     - React
   - SajjadBlurOverlay (1.0.0):
@@ -357,6 +359,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCPicker (from `../node_modules/@react-native-community/picker`)"
+  - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - SajjadBlurOverlay (from `../node_modules/react-native-blur-overlay/ios`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -431,6 +434,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNCPicker:
     :path: "../node_modules/@react-native-community/picker"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
   SajjadBlurOverlay:
@@ -477,6 +482,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: 4d2e726957f4087449739b595f107c0d4b6c2d2d
   ReactCommon: a0a1edbebcac5e91338371b72ffc66aa822792ce
   RNCPicker: 494015f2b7ec4bee5484b6f235aa19691426dcdb
+  RNSVG: ce9d996113475209013317e48b05c21ee988d42e
   RNVectorIcons: da6fe858f5a65d7bbc3379540a889b0b12aa5976
   SajjadBlurOverlay: 4366a3417954b7d4a8a70682e0c43959ff76a3cb
   Yoga: 7740b94929bbacbddda59bf115b5317e9a161598
